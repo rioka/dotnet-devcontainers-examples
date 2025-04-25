@@ -1,0 +1,11 @@
+{
+  "name": "dotnet",
+  "image": "mcr.microsoft.com/devcontainers/dotnet:1.4.2-8.0-bookworm",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-dotnettools.csdevkit"
+			]
+		}
+	}
+}
