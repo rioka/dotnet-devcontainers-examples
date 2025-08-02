@@ -7,8 +7,8 @@ In this case, I want to start from scratch, without relying on functions availab
 ## Steps
 
 - Create a repository
-- Add folder `.decontainer`
-- Create `devcontainer.json` inside `.decontainer`
+- Add folder `.devcontainer`
+- Create `devcontainer.json` inside `.devcontainer`
 
   This file defines the container we will be using to developer an application: we do not need dotnet to be installed on the host machine.
 
@@ -20,13 +20,13 @@ Our `devcontainer.json` contains is very minimal, and makes sense just for this 
 {
   "name": "dotnet",
   "image": "mcr.microsoft.com/devcontainers/dotnet:1.4.2-8.0-bookworm",
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"ms-dotnettools.csdevkit"
-			]
-		}
-	}
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csdevkit"
+      ]
+    }
+  }
 }
 ```
 
