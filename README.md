@@ -8,7 +8,7 @@ In this case, I want to start from scratch, without relying on functions availab
 
 - Create a repository
 - Add folder `.decontainer`
-- Create `devcontainer.json` inside `.decontainer`
+- Create `devcontainer.json` inside `.devcontainer`
 
   This file defines the container we will be using to developer an application: we do not need dotnet to be installed on the host machine.
 
